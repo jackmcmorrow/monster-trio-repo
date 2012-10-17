@@ -1,2 +1,9 @@
 {
+	"folders":
+	[
+		{
+			"path": "/C/Users/Daniel/Documents/GitHub/monster-trio-repo",
+			"file_exclude_patterns" : ["*.ttf", "*.eot", "*.svg", "*.woff"]
+		}
+	]
 }
