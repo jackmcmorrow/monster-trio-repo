@@ -6,39 +6,110 @@
 	<meta charset="UTF-8">
 	<title>Monster Trio :: Somos 138!</title>
 	<link href='http://fonts.googleapis.com/css?family=Creepster' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/css/boostrap-responsive.min.css">
-	<link rel="stylesheet" href="/css/boostrap-superhero.min.css">
-	<link rel="stylesheet" href="/css/base.css">
-	<link rel="stylesheet/less" href="/less/estilos.less">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+	<link rel="stylesheet" href="css/bootstrap-superhero.min.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet/less" href="less/estilos.less">
 </head>
 <body>
-	<header>
-		<div id="logo"></div>
-		<div id="player"></div>
-		<ul class="nav navbar">
-			<li><a href="#">Sobre</a></li>
-			<li><a href="#">Galeria</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Clube do Medo</a></li>
-		</ul>
+<!-- FACEBOOK SHIT -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      //appId      : '0', // App ID from the App Dashboard
+      channelUrl : 'channel.html', // Channel File for x-domain communication
+      status     : true, // check the login status upon init?
+      cookie     : true, // set sessions cookies to allow your server to access the session?
+      xfbml      : true  // parse XFBML tags on this page?
+    });
+
+    // Additional initialization code such as adding Event Listeners goes here
+
+  };
+
+  // Load the SDK's source Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document));
+</script>
+
+  <div class="container">
+	<header class="row">
+		<div id="logo">
+			
+			<h1>Monster Trio</h1>
+		</div>
+		<div id="player">
+			<audio controls>
+				<source src=""></source>
+			</audio>
+		</div>
+		<div class="navbar">
+			<ul class="nav nav-pills">
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Galeria</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Clube do Medo</a></li>
+			</ul>	
+		</div>
+		
 	</header>
-	<section>
-		<h2>Ao vivo dos mortos</h2>
-		<article>
-			Shows ao vivo
-		</article>
-	</section>
-	<section>
-		<h2>Contos de terror</h2>
-		<article>
-			Facebook
-		</article>
-	</section>
-	<section>
-		<h2>Sussurros do além</h2>
-		<article>
-			Twitter
-		</article>
-	</section>
+	<div class="content">
+		<div class="row-fluid">
+
+        
+			<section class="span4">
+				<h2>Ao vivo dos mortos</h2>
+				<article class="well">
+					
+						<h3>10/11/2012</h3>		
+						<h4>Convés Bar</h4>
+						<p>
+							Entrada: R$ 15,00 <br/>
+							Nosso show no convés contará com as bandas: Dark Potato, Te Voy a Quebrar e The Feitos.
+						</p>
+						<hr>
+						<h3>10/11/2012</h3>		
+						<h4>Convés Bar</h4>
+						<p>
+							Entrada: R$ 15,00 <br/>
+							Nosso show no convés contará com as bandas: Dark Potato, Te Voy a Quebrar e The Feitos.
+						</p>
+						<hr>
+						<a href="#" class="btn btn-primary">Shows anteriores >></a>
+				</article>
+			</section>
+			<section class="span4">
+				<h2>Contos de terror</h2>
+				<article>
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_PI/all.js#xfbml=1&appId=224865157542082";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+
+						<div class="fb-like-box" data-href="http://www.facebook.com/pages/Monster-Trio/179803048721454?fref=ts" data-width="292" data-show-faces="true" data-border-color="#596168" data-stream="true" data-header="false"></div>
+				</article>
+			</section>
+			<section class="span4">
+				<h2>Sussurros do além</h2>
+				<article class="well">
+					<iframe src="https://www.facebook.com/plugins/like.php?href=http://monstertrio.com.br"
+			scrolling="no" frameborder="0"
+        	style="border:none; width:290px; height:80px"></iframe>
+				</article>
+			</section>
+		</div>
+	</div>
+  </div>
 </body>
 </html>
