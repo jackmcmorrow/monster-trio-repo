@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"r",
+				"right: ${1001:$SELECTION};"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
 				"paddin",
 				"padding-top"
 			],
@@ -44,10 +52,6 @@
 				":focus"
 			],
 			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"na",
 				"name	@name"
 			],
@@ -70,10 +74,6 @@
 			[
 				"inlin",
 				"inline-block"
-			],
-			[
-				"r",
-				"rgba()"
 			],
 			[
 				"bac",
@@ -187,6 +187,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "less/estilos.less",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/base.css",
+			"settings":
+			{
+				"buffer_size": 8127,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Index.html",
+			"settings":
+			{
+				"buffer_size": 3558,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README",
+			"settings":
+			{
+				"buffer_size": 138,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "channel.html",
+			"settings":
+			{
+				"buffer_size": 60,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/LESS-build/LESS.sublime-build",
 	"command_palette":
@@ -195,12 +235,20 @@
 		"selected_items":
 		[
 			[
-				"less",
-				"Zen Coding: Evaluate math expression"
+				"bootstra",
+				"Snippet: Bootstrap basic three column grid"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"mini",
+				"Build: Minify"
+			],
+			[
+				"less",
+				"Zen Coding: Evaluate math expression"
 			],
 			[
 				"package",
@@ -237,10 +285,6 @@
 			[
 				"bootstr",
 				"Snippet: Bootstrap tabbable navigation tabs on the left"
-			],
-			[
-				"bootstra",
-				"Snippet: Bootstrap starter"
 			],
 			[
 				"swe",
@@ -328,6 +372,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/Index.html",
+		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/less/base.less",
+		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/monster-trio.sublime-project",
+		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/less/base",
 		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_droppy.css",
 		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/main.css",
 		"/C/Users/Daniel/Documents/GitHub/jack-css-icons/css/icones.css",
@@ -451,11 +499,7 @@
 		"/S/rsi/fgv/sites/02-sme/prt_ficha2.php",
 		"/S/rsi/fgv/sites/02-sme/prt_etapas2.php",
 		"/S/rsi/fgv/sites/02-sme/prt_orc_prog_exec.php",
-		"/S/rsi/fgv/sites/02-sme/petitMenuProjeto.php",
-		"/T/RSI/03 - FGV - Estado do RS/06 - SME/templates/css/base.css",
-		"/S/rsi/fgv/sites/02-sme/prt_abas_cadastro.php",
-		"/C/Users/Daniel/Documents/sublime-text-repo/listadearquivos-Bibliosecdes.html",
-		"/T/RSI/03 - FGV - Estado do RS/06 - SME/templates/detalhes-da-obra.html"
+		"/S/rsi/fgv/sites/02-sme/petitMenuProjeto.php"
 	],
 	"find":
 	{
@@ -478,6 +522,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Roboto-",
+			"Roboto-Regular-webfont",
 			"h2",
 			"gumax-footer",
 			".selected",
@@ -615,8 +661,142 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "less/estilos.less",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/base.css",
+					"settings":
+					{
+						"buffer_size": 8127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7888,
+								7894
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2618.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Index.html",
+					"settings":
+					{
+						"buffer_size": 3558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3293,
+								3293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1111.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "README",
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "channel.html",
+					"settings":
+					{
+						"buffer_size": 60,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -680,6 +860,6 @@
 	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 233.0,
 	"status_bar_visible": true
 }
