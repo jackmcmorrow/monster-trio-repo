@@ -39,6 +39,15 @@
    }(document));
 </script>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_PI/all.js#xfbml=1&appId=224865157542082";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="container">
 	<header class="row">
 		<div id="logo">
@@ -46,9 +55,7 @@
 			<h1>Monster Trio</h1>
 		</div>
 		<div id="player">
-			<audio controls>
-				<source src=""></source>
-			</audio>
+			<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F63641284&show_artwork=true"></iframe>
 		</div>
 		<div class="navbar">
 			<ul class="nav nav-pills">
@@ -87,25 +94,16 @@
 			</section>
 			<section class="span4">
 				<h2>Contos de terror</h2>
-				<article>
-					<div id="fb-root"></div>
-					<script>(function(d, s, id) {
-					  var js, fjs = d.getElementsByTagName(s)[0];
-					  if (d.getElementById(id)) return;
-					  js = d.createElement(s); js.id = id;
-					  js.src = "//connect.facebook.net/en_PI/all.js#xfbml=1&appId=224865157542082";
-					  fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));</script>
-
-						<div class="fb-like-box" data-href="http://www.facebook.com/pages/Monster-Trio/179803048721454?fref=ts" data-width="292" data-show-faces="true" data-border-color="#596168" data-stream="true" data-header="false"></div>
+				<article class="well">
+					<canvas>
+						<div class="fb-comments" data-href="http://www.example.com" data-num-posts="6" data-width="470" data-colorscheme="dark"></div>
+					</canvas>
 				</article>
 			</section>
 			<section class="span4">
 				<h2>Sussurros do além</h2>
 				<article class="well">
-					<iframe src="https://www.facebook.com/plugins/like.php?href=http://monstertrio.com.br"
-			scrolling="no" frameborder="0"
-        	style="border:none; width:290px; height:80px"></iframe>
+					<div class="fb-comments" data-href="http://www.example.com" data-num-posts="6" data-width="470" data-colorscheme="dark"></div>
 				</article>
 			</section>
 		</div>
