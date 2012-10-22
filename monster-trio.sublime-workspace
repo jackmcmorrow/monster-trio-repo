@@ -199,7 +199,7 @@
 			"file": "css/base.css",
 			"settings":
 			{
-				"buffer_size": 8127,
+				"buffer_size": 8575,
 				"line_ending": "Windows"
 			}
 		},
@@ -207,7 +207,7 @@
 			"file": "Index.html",
 			"settings":
 			{
-				"buffer_size": 3558,
+				"buffer_size": 3550,
 				"line_ending": "Windows"
 			}
 		},
@@ -661,7 +661,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -695,15 +695,15 @@
 					"file": "css/base.css",
 					"settings":
 					{
-						"buffer_size": 8127,
+						"buffer_size": 8575,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7888,
-								7894
+								7986,
+								7986
 							]
 						],
 						"settings":
@@ -713,7 +713,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2618.0,
+						"translation.y": 2660.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -723,15 +723,15 @@
 					"file": "Index.html",
 					"settings":
 					{
-						"buffer_size": 3558,
+						"buffer_size": 3550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3293,
-								3293
+								1025,
+								1025
 							]
 						],
 						"settings":
@@ -740,7 +740,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1111.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
