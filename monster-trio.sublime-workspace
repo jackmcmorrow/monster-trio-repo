@@ -199,7 +199,7 @@
 			"file": "css/base.css",
 			"settings":
 			{
-				"buffer_size": 8575,
+				"buffer_size": 8593,
 				"line_ending": "Windows"
 			}
 		},
@@ -207,7 +207,7 @@
 			"file": "Index.html",
 			"settings":
 			{
-				"buffer_size": 3550,
+				"buffer_size": 3553,
 				"line_ending": "Windows"
 			}
 		},
@@ -231,9 +231,13 @@
 	"build_system": "Packages/LESS-build/LESS.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 127.0,
 		"selected_items":
 		[
+			[
+				"Snippet: form",
+				"Snippet: Bootstrap horizontal form"
+			],
 			[
 				"bootstra",
 				"Snippet: Bootstrap basic three column grid"
@@ -372,6 +376,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/Index.html",
 		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/less/base.less",
 		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/monster-trio.sublime-project",
@@ -453,8 +460,6 @@
 		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/FDRH-cadastro.html",
 		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/FDRH-ver-filtros-tabelas.html",
 		"/T/Bobs/91 - Portal SCM/docs/Manual SCM Esquipamento/Interativo/manual-interativo-beta",
-		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/FDRH20120802.html",
 		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH/FDRH-ver-dados.html",
 		"/C/Users/Daniel/Dropbox/Public/Realejo/FDRH.html",
@@ -498,8 +503,7 @@
 		"/S/rsi/fgv/sites/02-sme/prt_etapas_cadastro2.php",
 		"/S/rsi/fgv/sites/02-sme/prt_ficha2.php",
 		"/S/rsi/fgv/sites/02-sme/prt_etapas2.php",
-		"/S/rsi/fgv/sites/02-sme/prt_orc_prog_exec.php",
-		"/S/rsi/fgv/sites/02-sme/petitMenuProjeto.php"
+		"/S/rsi/fgv/sites/02-sme/prt_orc_prog_exec.php"
 	],
 	"find":
 	{
@@ -695,15 +699,15 @@
 					"file": "css/base.css",
 					"settings":
 					{
-						"buffer_size": 8575,
+						"buffer_size": 8593,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7986,
-								7986
+								7880,
+								7880
 							]
 						],
 						"settings":
@@ -713,7 +717,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2660.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -723,15 +727,15 @@
 					"file": "Index.html",
 					"settings":
 					{
-						"buffer_size": 3550,
+						"buffer_size": 3553,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1025,
-								1025
+								3188,
+								3188
 							]
 						],
 						"settings":
@@ -740,7 +744,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1029.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
