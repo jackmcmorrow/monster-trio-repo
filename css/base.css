@@ -194,11 +194,11 @@
 
 }
 
-body {background: url(../img/caveira-pattern.png) repeat;}
+body {background: url(../img/fnd-castelo.png) repeat #00045d;}
 body > .container {
 	width: 1000px;
 	padding: 20px 40px;
-	background-color: #44474a;
+	background-color: rgba(30, 30, 30, 0.8);
 	position: relative;
 }
 h1, h2, h3 {font-family: 'Creepster', cursive;}
