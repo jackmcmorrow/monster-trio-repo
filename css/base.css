@@ -198,7 +198,7 @@ body {background: url(../img/fnd-castelo.png) repeat-x black;}
 body > .container {
     width: 1000px;
     padding: 20px 40px;
-    background-color: rgba(30, 30, 30, 0.8);
+    background-color: rgba(230, 230, 230, 0.3);
     position: relative;
 }
 h1, h2, h3 {font-family: 'Creepster', cursive;}
@@ -228,12 +228,27 @@ section.well, aside.well {min-height: 612px;}
         width: 110%;
         height: 30px;
     }
+.navbar .nav {margin-left: 10px; margin-top: 25px;}    
+
 .navbar .nav > li {
     position: relative;
-    background-color: #2A333C;
+    background-color: #a54e16;
     padding: 4px 25px 4px 4px;
     margin-right: 10px;
     border-radius: 15px;
+}
+
+.navbar .nav > li b {
+    display: block;
+    
+    content: " ";
+    width: 33px;
+    height: 27px;
+    background: url('../img/antena.png') no-repeat 0 0 transparent;
+    
+    position: absolute;
+    left: 5px;
+    top: -25px;   
 }
 
 .navbar .nav > li:after {
@@ -253,7 +268,12 @@ section.well, aside.well {min-height: 612px;}
     border-radius: 15px;
     background-color: white;
     border-right-width: 20px;
-    }
+}
+    
+.navbar .nav > li > a:hover {
+    background: url('../img/static.gif') repeat #cccccc;
+    position: static;
+}
 
 /* BOOTSTRAP OVERRIDE */
 .dl-horizontal dt {width: 100px;}
