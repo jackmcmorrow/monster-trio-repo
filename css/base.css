@@ -209,12 +209,18 @@ h3 {font-size: 2.5em;}
 
 section.well, aside.well {min-height: 612px;}
 
+header {margin-bottom: 20px;}
+
+.well > h2 {position: absolute; top: 80px;}
+
 .well {
     background-color: #596168; 
     position: relative;
-    border-radius: 32px 32px 0 0;
+    border-radius: 160px 160px 0 0;
     box-shadow: 14px 0px #888;
     background-color: #bbb;
+    
+    padding-top: 180px;
 }
 
 .well::after {
