@@ -194,12 +194,12 @@
 
 }
 
-body {background: url(../img/fnd-castelo.png) repeat #00045d;}
+body {background: url(../img/fnd-castelo.png) repeat-x black;}
 body > .container {
-	width: 1000px;
-	padding: 20px 40px;
-	background-color: rgba(30, 30, 30, 0.8);
-	position: relative;
+    width: 1000px;
+    padding: 20px 40px;
+    background-color: rgba(30, 30, 30, 0.8);
+    position: relative;
 }
 h1, h2, h3 {font-family: 'Creepster', cursive;}
 h4, h5, p {font-family: 'RobotoBlack', sans-serif;}
@@ -207,12 +207,16 @@ h1 {font-size: 5em;}
 h2 {font-size: 38px;}
 h3 {font-size: 2.5em;}
 
+section.well, aside.well {min-height: 612px;}
+
 .well {
     background-color: #596168; 
     position: relative;
-    border-radius: 25px 25px 0 0;
+    border-radius: 32px 32px 0 0;
+    box-shadow: 14px 0px #888;
     background-color: #bbb;
 }
+
 .well::after {
         content: " ";
         background: -moz-linear-gradient(rgba(89, 97, 104, 0),#000);
@@ -221,18 +225,43 @@ h3 {font-size: 2.5em;}
         position: absolute;
         left: 0;
         bottom: 0;
-        width: 100%;
+        width: 110%;
         height: 30px;
     }
-.navbar .nav > li > a {font-family: 'RobotoBlack', sans-serif;}
+.navbar .nav > li {
+    position: relative;
+    background-color: #2A333C;
+    padding: 4px 25px 4px 4px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.navbar .nav > li:after {
+    content: " ";
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: black;
+    
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+.navbar .nav > li > a {
+    font-family: 'RobotoBlack', sans-serif;
+    border-radius: 15px;
+    background-color: white;
+    border-right-width: 20px;
+    }
 
 /* BOOTSTRAP OVERRIDE */
 .dl-horizontal dt {width: 100px;}
 .dl-horizontal dd {margin-left: 110px;}
 
 #player {
-	position: absolute;
-	right: 30px;
+    position: absolute;
+    right: 30px;
 }
 
 /* RESPONSIVE */
